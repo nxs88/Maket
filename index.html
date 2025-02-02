@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CPS</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="main-title--hidden" hidden>
+            <h1>Услуги и сервисы</h1>
+          </div>
+          <nav class="menu">
+            <button class="button menu__btn">
+              <img src="./img/menu.svg" class="menu__btn-img" />
+            </button>
+          </nav>
+          <div class="divider divider1" hidden>
+            <img src="./img/divider.svg" class="divider__img" />
+          </div>
+          <div class="logo">
+            <a href="#" class="logo__link">
+              <img src="./img/Group.svg" alt="logo" class="logo__link-img" />
+            </a>
+          </div>
+
+          <button class="button header__btn-contacts" hidden>
+            <img
+              src="./img/contacts.svg"
+              alt="contacts"
+              class="header__btn-contacts-img"
+            />
+          </button>
+          <button class="button header__btn-chat" hidden>
+            <img src="./img/chat.svg" alt="chat" class="header__btn-chat-img" />
+          </button>
+          <button class="button header__btn-profile" hidden>
+            <img
+              src="./img/profile.svg"
+              alt="header__btn-profile"
+              class="header__btn-profile-img"
+            />
+          </button>
+          <div class="divider divider2">
+            <img src="./img/divider.svg" class="divider__img" />
+          </div>
+          <p class="hidden-request-text" hidden>Оставить заявку</p>
+          <button class="button header__btn-request">
+            <img
+              src="./img/req-btn-img.svg"
+              alt="request"
+              class="header__btn-request-img"
+            />
+          </button>
+          <p class="hidden-status-text" hidden>Статус ремонта</p>
+          <button class="button header__btn-status">
+            <img
+              src="./img/status-btn-img.svg"
+              alt="status"
+              class="header__btn-request-img"
+            />
+          </button>
+        </div>
+      </div>
+    </header>
+    <main class="main">
+      <div class="main-title">
+        <h1>Услуги и сервисы</h1>
+      </div>
+      <div class="container">
+        <div class="slide-menu">
+          <button class="slide-menu__item">Ремонтируемые устройства</button>
+          <button class="slide-menu__item">Дополнительные услуги</button>
+          <button class="slide-menu__item">Цены на услуги</button>
+          <button class="slide-menu__item">Специальные цены</button>
+          <button class="slide-menu__item">Адреса сервисных центров</button>
+        </div>
+        <p class="hidden-text" hidden>Отзывы</p>
+        <section class="description">
+          <p class="description__text">
+            Мы являемся авторизованным сервисным центром по ремонту техники
+            Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+            официальной гарантией производителя.
+          </p>
+          <div class="description__link">
+            <img
+              src="./img/link-logo.svg"
+              alt="logo"
+              class="description__link-logo"
+            />
+            <a href="#" class="description__link-text">Читать далее</a>
+          </div>
+        </section>
+
+        <!-- Спрятанный блок, появляется при брейкпоинте 768px -->
+        <section class="description-768" hidden>
+          <p class="description__text">
+            Мы являемся авторизованным сервисным центром по ремонту техники
+            Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с
+            официальной гарантией производителя <br /><br />
+            Мы успешно работаем с 1992 года и заслужили репутацию надежного
+            партнера<span class="hidden-span" hidden
+              >,что подтверждает большое количество постоянных клиентов. Мы
+              гордимся тем , что к нам обращаются по рекомендациям и, в свою
+              очередь, советуют нас родным и близким.</span
+            >
+            <span class="description__link">
+              <img
+                src="./img/link-logo.svg"
+                alt="logo"
+                class="description__link-logo"
+              />
+              <a href="#" class="description__link-text">Читать далее</a>
+            </span>
+          </p>
+          <img
+            class="main-img-768"
+            src="./img/Picture Copy.jpeg"
+            alt="main-img"
+          />
+        </section>
+      </div>
+      <img class="main-img" src="./img/Picture Copy.jpeg" alt="main-img" />
+    </main>
+  </body>
+</html>
